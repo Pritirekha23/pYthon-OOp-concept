@@ -55,8 +55,8 @@ class Student:
     name.age=age
     name.sid=sid
   def printdetails(v):
-    print(f'name is {v.age}')
-    print(f'age is {v.sid}')
+    print(f'age is {v.age}')
+    print(f'sid is {v.sid}')
 s1=Student(23,1002546)
 s1.printdetails()
 
