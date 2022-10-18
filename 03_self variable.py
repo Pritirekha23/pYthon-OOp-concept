@@ -9,7 +9,7 @@
 #Self is used to refer to a current class  object or current memory.
 # It is also acting as an accessor.
 # Self is the first argument for constructor and instance method.
-# self is not a keyword in python,instead of self we can write other names,but itis highly recomanded to use self.
+# self is not a keyword in python,instead of self we can write other names,but it is highly recomanded to use self.
 
 # create a class Student having 3 attributes and 1 method.
 class Student:
