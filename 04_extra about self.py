@@ -3,7 +3,7 @@ class Student():
         print(id(self))
 s1=Student()
 print(id(s1))
-# here self and s1 point into same memory location
+# here self and s1 point into the same memory location
 
 print('-'*10)
 s2=Student()
