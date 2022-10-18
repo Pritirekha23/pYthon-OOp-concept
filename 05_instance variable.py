@@ -32,8 +32,8 @@ class studenT:
         self.r=r
 s1=studenT()
 print(s1.__dict__) 
-# when we create the object constructor will execute automatically but here create() is a normal function so it wont be execute automatically, so we have to call it.
-# before calling if i print 'print(s1.__dict__) ' then i will gate an empty dictionary.
+# when we create the object constructor will execute automatically but here create() is a  instance function so it wont be execute automatically, so we have to call it.
+# before calling if i print 'print(s1.__dict__) ' then it will give an empty dictionary.
 # this create() is a instance method.
 s1.create('zinu',22,5676)
 print(s1.__dict__)
