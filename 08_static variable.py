@@ -4,7 +4,7 @@
 # memory utilization
 
 
-# without static variable we can work but that is not efficient(meemory wastage)
+# without static variable we can work but that is not efficient(memory wastage)
 print('-------without static variable---------')
 class Student:
     def __init__(self,name,age,roll,college):
