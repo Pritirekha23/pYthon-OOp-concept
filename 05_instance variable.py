@@ -1,6 +1,6 @@
 # how to create instance variable in different different places.
 
-# Instance variable:
+# Instance variable:(object level variable)
 # what is the requirement of an  Instance variable?
  # ans- If the value of a variable varies from object to object,then in such case we can go for instance variabel.
 

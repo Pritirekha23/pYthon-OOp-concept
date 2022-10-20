@@ -61,3 +61,59 @@ print(f'roll is {s2.roll}')
 #print(f'Name is {s2.name}')
 #print(f'Age is {s2.age}')
 #print(f'roll is {s2.roll}')
+
+
+
+
+# Deletion of insatnce variable
+ # we can delete in two different places (1)Inside the class (2) outside the class
+
+# inside the class
+   # inside instance method
+print('---')
+class Student:
+    def __init__(self,name,age,roll):
+        self.name=name
+        self.age=age
+        self.roll=roll
+        # delete data inside class inside instance method
+    def deletedata(self):
+      del self.name
+s1=Student('priti',23,293)
+print(s1.__dict__)
+s1.deletedata()
+print(s1.__dict__)
+
+
+# delete inside the class instamce constructor
+print('-----------')
+class Student:
+  def __init__(self,name,age,roll):
+    self.name=name
+    self.age=age
+    self.roll=roll
+    print(self.__dict__) # It will give detail of instance variable
+      # delete instance varible inside class inside constructor
+    del self.age
+    print(self.__dict__)
+    del self.name
+    print(self.__dict__)
+s3=Student('jungkook',27,823)
+
+
+# deletion of instance variable outside of the class
+print('---')
+class Student:
+    def __init__(self,name,age,roll):
+      self.name=name
+      self.age=age
+      self.roll=roll
+
+s4=Student('piku',9,7363)
+print(s4.__dict__)
+# delete instance variable outside of the class using reference variables
+del s4.age
+print(s4.__dict__)
+del s4.roll,s4.name
+print(s4.__dict__)
+
