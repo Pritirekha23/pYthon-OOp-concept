@@ -1,3 +1,4 @@
+# dt-19/10/22
 # static variable(class level variable)
 # if the value of the variable is common for all the object then we can go for static variable
 # only one copy it will create and share to all
