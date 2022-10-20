@@ -85,7 +85,7 @@ s1.deletedata()
 print(s1.__dict__)
 
 
-# delete inside the class instamce constructor
+# delete inside the class instance constructor
 print('-----------')
 class Student:
   def __init__(self,name,age,roll):
