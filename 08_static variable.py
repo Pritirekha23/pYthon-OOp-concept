@@ -19,6 +19,8 @@ s3=Student('xiaoqiii',22,278654,'NIT')
 print(s1.__dict__)
 print(s2.__dict__)
 print(s3.__dict__)
+print(Student.__dict__)
+# here college is not related to class it is related to object.
 
 print('-------with static variable---------')
 class Student:
@@ -34,3 +36,11 @@ s3=Student('xiaoqiii',22,278654)
 print(s1.__dict__)
 print(s2.__dict__)   # so it does not print that static variable object
 print(s3.__dict__)
+
+
+# If u r performing any changes in a particular object in instance variable it will not reflect to other object  but in case of static variable whenevr u r performing any changes in a particular object it will reflect all the object.
+
+# static variable (here college) is the part of class level not object level.
+print(Student.__dict__)
+
+
