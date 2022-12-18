@@ -6,13 +6,13 @@
 
 # Real life example of class,object and reference variable
   # Usha company fan production example
-  # Design(class)---Real fan(objrct)---to access the real fan we required some things like switch(here switch is the reference variable)
+  # Design(class)---Real fan(object)---to access the real fan we required some things like switch(here switch is the reference variable)
 
 # for this design  we  can create multiple fans like for a single class we can create mmultiple objects.
 #  class--- Blueprint,view,templet,layout,virtual encapsulation,virtual,logical entity,plan,model
 
 # what is class?
-  # If u want to create an object,then we required a blueprint and that bluprint is called class.
+  # If u want to create an object,then we required a blueprint and that blueprint is called class.
   # Inside class we will represent PROPERTIES(variable/attributes) and BEHAVIOUR(Methods or Action).
 # Class is a grouping mechansing where we can store methods and variables.
 # to wrap or bind properties and behaviour we required a class.
