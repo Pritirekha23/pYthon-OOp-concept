@@ -1,12 +1,12 @@
-class Student():
+class Student1():
     def __init__(self):
         print(id(self))
-s1=Student()
+s1=Student1()
 print(id(s1))
 # here self and s1 point into the same memory location
 
 print('-'*10)
-s2=Student()
+s2=Student1()
 print(id(s2))
 
 # 1st time s1 and self is same
@@ -16,25 +16,25 @@ print(id(s2))
 # But it is highly recomanded that use self .
 
 print('prove that self is a variable')
-class Student:
-    def __init__(v):
-        v.name=input('Enter your name::')
-        v.age=int(input('Enter your age::'))
-        v.course=input('Enter your course::')
+class Student3:
+    def __init__(vv):
+        vv.name=input('Enter your name::')
+        vv.age=int(input('Enter your age::'))
+        vv.course=input('Enter your course::')
     
-    def printdetails(v):
+    def printdetails(vv):
         print('-'*40)
-        print(f'Name is {v.name}')
-        print(f'Age is {v.age}')
-        print(f'Course is {v.course}')
+        print(f'Name is {vv.name}')
+        print(f'Age is {vv.age}')
+        print(f'Course is {vv.course}')
 
 
 # 
-s1=Student()
+s1=Student3()
 s1.printdetails()
 
 print('__________')
-class Student:
+class Student22:
   def __init__(v,name,age,sid):
     v.name=name
     v.age=age
@@ -43,7 +43,7 @@ class Student:
     print(f'name is {v.name}')
     print(f'age is {v.age}')
     print(f'ssid is {v.sid}')
-s1=Student("priti",20,1056)
+s1=Student22("priti",20,1056)
 s1.printdetails()
 
 
