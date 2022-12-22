@@ -103,4 +103,21 @@ print('*'*20)
 
 
 print('----example-2-----')
+class Student3:
+    def __init__(self,name):
+        self.name=name # insatnce variable
+s10=Student3('Rahul')
+Student3.clg='NIIt clg' # static variable
+Student3.branch='CSE'
+print(s10.__dict__)
+print(Student3.__dict__)
+
+#output
+#----example-2-----
+#{'name': 'Rahul'}
+#{'__module__': '__main__', '__init__': <function Student3.__init__ at 0x0000022816F1FF70>, '__dict__': <attribute '__dict__' of 'Student3' objects>, '__weakref__': <attribute '__weakref__' of 'Student3' objects>, '__doc__': None, 'clg': 'NIIt clg', 'branch': 'CSE'}
+
+print('*'*50)
+
+
 
