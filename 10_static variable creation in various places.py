@@ -47,7 +47,10 @@ print(s1.__dict__)
 print(s2.__dict__)
 print(s3.__dict__)
 print(STudent.__dict__)
-
+print(id(Student))
+print(id(s1))
+print(id(s2))
+print(id(s3))
 # MEMORY REPRESENTATION:
 print('---example3---')
 
