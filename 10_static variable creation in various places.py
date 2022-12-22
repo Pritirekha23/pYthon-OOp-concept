@@ -120,4 +120,39 @@ print(Student3.__dict__)
 print('*'*50)
 
 
+  #3) Inside Constructor(using class name)
+print('-----inside constructor----')
+#example-1
+class Student4:
+    def __init__(self):
+        Student4.clg='MNK college'
+s12=Student4()
+s13=Student4()
+print(s12.__dict__)
+print(s13.__dict__)
+print(Student4.__dict__)
 
+#output
+#-----inside constructor----
+#{}
+#{}
+#{'__module__': '__main__', '__init__': <function Student4.__init__ at 0x000002022915F040>, '__dict__': <attribute '__dict__' of 'Student4' objects>, '__weakref__': <attribute '__weakref__' of 'Student4' objects>, '__doc__': None, 'clg': 'MNK college'} 
+
+
+print('example2')
+class Student5:
+    def __init__(self,name):
+        Student5.clg='MNK college' #static variable
+        Student5.branch='CSE'
+        self.name=name # instance variable
+s7=Student5('rahul')
+s8=Student5('Kamalal')
+print(s7.__dict__)
+print(s8.__dict__)
+print(Student5.__dict__)
+
+# output
+#example2
+#{'name': 'rahul'}
+#{'name': 'Kamalal'}
+#{'__module__': '__main__', '__init__': <function Student5.__init__ at 0x000001EBF06310D0>, '__dict__': <attribute '__dict__' of 'Student5' objects>, '__weakref__': <attribute '__weakref__' of 'Student5' objects>, '__doc__': None, 'clg': 'MNK college', 'branch': 'CSE'}
