@@ -156,3 +156,7 @@ print(Student5.__dict__)
 #{'name': 'rahul'}
 #{'name': 'Kamalal'}
 #{'__module__': '__main__', '__init__': <function Student5.__init__ at 0x000001EBF06310D0>, '__dict__': <attribute '__dict__' of 'Student5' objects>, '__weakref__': <attribute '__weakref__' of 'Student5' objects>, '__doc__': None, 'clg': 'MNK college', 'branch': 'CSE'}
+
+
+#example--3
+print()
