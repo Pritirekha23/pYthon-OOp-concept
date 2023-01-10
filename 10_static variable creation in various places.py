@@ -139,6 +139,7 @@ print(Student4.__dict__)
 #{'__module__': '__main__', '__init__': <function Student4.__init__ at 0x000002022915F040>, '__dict__': <attribute '__dict__' of 'Student4' objects>, '__weakref__': <attribute '__weakref__' of 'Student4' objects>, '__doc__': None, 'clg': 'MNK college'} 
 
 
+
 print('example2')
 class Student5:
     def __init__(self,name):
