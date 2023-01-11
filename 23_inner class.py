@@ -6,5 +6,30 @@
 # If there is no outer class then there is no chamce to exist inner class.
 #ex- Bank is outer class where account is inner class
 
+# One outer class can contain multiple inner class.
 
 
+class Outer:
+    def __init__(self):
+        print('Outer class constructor')
+    class Inner:
+        def __init__(self):
+            print('Inner class constructor')
+
+# outer class object creation
+
+obj1=Outer()
+
+#i=Inner() (we cant create inner class object like this ,if we create then we will get an error)#NameError: name 'Inner' is not defined
+
+#inner class object creation(outer class refernece.inner) 
+# this is the way1 to create outer class objecr
+i=obj1.Inner( )
+
+#way2
+i1=Outer.Inner()
+
+
+# outer class as well aas inner class object creation.
+i2=Outer().Inner()
+# Outer().Inner() --- It means 1st it will create object of Outer class then it will create object of inner class
